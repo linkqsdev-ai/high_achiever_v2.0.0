@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">High Achiever</string>
+    <string name="title_activity_main">High Achiever</string>
+    <string name="package_name">com.linkq.highachiever</string>
+    <string name="custom_url_scheme">com.linkq.highachiever</string>
+</resources>

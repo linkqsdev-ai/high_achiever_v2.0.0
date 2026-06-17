@@ -1,0 +1,13 @@
+{
+  "name": "focusflow",
+  "version": "1.2.0",
+  "description": "FocusFlow Browser Extension",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.29.1"
+  }
+}

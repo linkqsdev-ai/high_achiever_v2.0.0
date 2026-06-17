@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "High Achiever",
+  "version": "1.1.0",
+  "description": "An ADHD-friendly productivity suite featuring Focus Mode, Google Drive Sync, Hydration tracking, and EyeGuard.",
+  "oauth2": {
+    "client_id": "281778571973-ocgt39ed3n0nvr35kviv4sb50j74tjv6.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive.appdata",
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "offscreen",
+    "identity",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon32.png"
+  },
+  "side_panel": {
+    "default_path": "popup/popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

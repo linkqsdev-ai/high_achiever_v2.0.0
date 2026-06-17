@@ -1,0 +1,16 @@
+{
+  "name": "high-achiever-mobile",
+  "version": "1.1.0",
+  "description": "High Achiever (FocusFlow) Mobile App",
+  "scripts": {
+    "build": "echo \"Ready for Capacitor\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/core": "^8.4.0",
+    "@capacitor/ios": "^8.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.4.0"
+  }
+}

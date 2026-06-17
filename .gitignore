@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+mobile/node_modules/
+
+# Local configuration files
+.env
+.DS_Store
+Thumbs.db
+
+# Android build and IDE files
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/local.properties
+mobile/android/.idea/
+*.apk
+*.aar
+
+# iOS build and IDE files
+mobile/ios/App/build/
+mobile/ios/App/Pods/
+mobile/ios/App/App.xcworkspace/xcuserdata/
+mobile/ios/App/App.xcodeproj/project.xcworkspace/
+mobile/ios/App/App.xcodeproj/xcuserdata/
+
+# Backup and ZIP archives
+*.zip
+*.tar.gz
